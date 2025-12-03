@@ -13,4 +13,21 @@ public class Event {
     public String toString(){
         return "[" + timestamp + "] " + description;
     }
+
+    //JIC Getters and Setters
+    public String getDescription() {
+        return description;
+    }
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getTimestamp() {
+        return timestamp;
+    }
+    public void setTimestamp(String timestamp) {
+        this.timestamp = timestamp;
+    }
+
+
 }
